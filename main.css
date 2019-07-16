@@ -1,0 +1,35 @@
+p {
+  font size 15px;
+  font- font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-image: linear-gradient(-90deg, red, yellow);
+}
+p{
+  border: 2px solid white;
+  border- radius: 5px;
+}
+.toggle {
+  overflow: hidden;
+  transition: height .4s, padding .4s;
+}
+
+.toggle.is_hidden {
+  height: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+div {
+  background: #1663d6;
+  color: #FFFF99;
+  font: bold 20px sans-serif;
+  width: 250px;
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+div {
+    cursor:zoom-in;
+}
